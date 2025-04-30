@@ -11,7 +11,7 @@ const CONFIG = {
     maxTestDurationMs: 600000, // Maximum test duration (10 minutes)
     token: "24c07f1e3c8e5344c4c915b388d8d2",
     baseUrl: 'https://graphql-listen-eu1.staging-datocms.com',
-    query: `{ allPosts { id title _publishedAt } _allPostsMeta { count } }`
+    query: `{ allPosts { id } }`
 };
 // Test statistics
 const stats = {
