@@ -4,7 +4,7 @@ import { EventSource } from 'eventsource';
 import { setTimeout as asyncSetTimeout } from 'timers/promises';
 // Configuration
 const CONFIG = {
-    maxConnections: 1000, // Maximum number of connections to establish
+    maxConnections: 3000, // Maximum number of connections to establish
     connectionStep: 200, // How many connections to add in each batch
     stepIntervalMs: 1000, // Time between adding batches (milliseconds)
     monitorIntervalMs: 5000, // How often to log status (milliseconds)
